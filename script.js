@@ -135,7 +135,7 @@ rokokTrue.setAttribute("name", "is-rokok")
 rokokTrue.setAttribute("id", "ya-rokok")
 rokokTrue.setAttribute("value", "Ya")
 
-document.querySelector(".choice-gender").appendChild(rokokTrue)
+document.querySelector(".choice-rokok").appendChild(rokokTrue)
 
 // label Ya - Rokok
 const yaRokok = document.createElement("label")
@@ -161,3 +161,9 @@ tidakRokok.setAttribute("for", "tidak-rokok")
 tidakRokok.textContent = "Tidak"
 
 document.querySelector(".choice-rokok").appendChild(tidakRokok)
+
+
+// checkbox list rokok
+const divListRokok = document.createElement("div")
+
+document.body.appendChild(divListRokok)
